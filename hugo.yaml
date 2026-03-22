@@ -50,7 +50,7 @@ params:
   profileMode:
     enabled: true
     title: "Hi, I'm Davit 👋"
-    subtitle: "A technical blog dedicated to mastering Playwright architecture, clean code practices, and the engineering of AI agents, skills, and instructions"
+    subtitle: "Writing about Playwright best practices, clean code, and agentic engineering."
     imageUrl: ""
     imageWidth: 120
     imageHeight: 120
