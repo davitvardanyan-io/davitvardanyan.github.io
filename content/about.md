@@ -6,9 +6,8 @@ summary: "About Davit Vardanyan"
 
 ## Hey there — I'm Davit 👋
 
-I'm a **Senior Software QA Engineer** based in Armenia, focused on quality assurance, test automation, and building reliable systems.
+I’m a Senior QA Automation Engineer dedicated to mastering Playwright architecture, clean code practices, and the engineering of AI agents, skills, and instructions
 
-Welcome. Writing about code, quality, testing, code and AI.
 
 ### What I work on
 

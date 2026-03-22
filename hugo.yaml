@@ -18,7 +18,7 @@ minify:
 params:
   env: production
   title: "Davit Vardanyan"
-  description: "Software QA Engineer — Posts, projects, and thoughts."
+  description: "Senior Software QA Engineer — Posts, projects, and thoughts."
   author: Davit Vardanyan
   defaultTheme: dark
   disableThemeToggle: false
@@ -50,7 +50,7 @@ params:
   profileMode:
     enabled: true
     title: "Hi, I'm Davit 👋"
-    subtitle: "Welcome to my personal blog. Here I'm writing about quality, testing, code and AI."
+    subtitle: "A technical blog dedicated to mastering Playwright architecture, clean code practices, and the engineering of AI agents, skills, and instructions"
     imageUrl: ""
     imageWidth: 120
     imageHeight: 120
