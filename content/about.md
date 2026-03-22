@@ -19,4 +19,4 @@ I'm a Senior Software QA Engineer / Senior SDET focused on automation testing, P
 
 ### Get in touch
 
-Feel free to reach out via [GitHub](https://github.com/vardanyandavit) or [LinkedIn](https://linkedin.com/in/davit03/). I'm always happy to connect with fellow engineers.
+Feel free to reach out via [GitHub](https://github.com/) or [LinkedIn](https://linkedin.com/). I'm always happy to connect with fellow engineers.
