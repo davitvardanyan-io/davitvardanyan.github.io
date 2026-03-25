@@ -3,11 +3,14 @@ title: "Hello World — Welcome to My Blog"
 draft: false
 tags:
   [
-    "testing",
-    "playwright",
-    "typescript",
-    "automation",
+    "Testing",
+    "Playwright",
+    "TypeScript",
+    "Automation",
     "AI",
+    "LLM",
+    "Knowledge",
+    "Technology",
     "Skills",
     "Agents",
   ]

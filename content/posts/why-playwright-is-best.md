@@ -1,7 +1,7 @@
 ---
 title: "Why Playwright Is Your Best Choice for Web Automation"
 draft: false
-tags: ["playwright", "testing", "automation", "typescript"]
+tags: ["Playwright", "Testing", "Automation", "TypeScript", "Knowledge", "Technology"]
 description: "Start your automation journey with Playwright testing library"
 showToc: true
 ---
