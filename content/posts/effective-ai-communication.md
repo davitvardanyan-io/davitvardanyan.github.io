@@ -6,7 +6,7 @@ description: "Three mechanical things you should understand to get better result
 showToc: true
 ---
 
-To work with any AI better, there are three "mechanical" things you should understand. These will help you get better results from Gemini, GPT-4, or any local model you run.
+I've been noticing that many engineers struggle to get consistent results from AI tools. To work with any AI better, I've found there are three "mechanical" things you should understand. These will help you get better results from any cloud LLM or local model you run.
 
 ### 1. The "Token" Budget (Why AI gets "Dumb" in long chats)
 
@@ -57,3 +57,7 @@ Because the AI predicts word-by-word, if you ask it a hard question immediately,
 **The Hack:** Always add the phrase **"Let's think step-by-step"** at the end of a hard request.
 
 **Why it works:** This forces the AI to write out its logic *before* it gives the final answer. Since its "future" words are based on its "past" words, the act of writing the logic actually makes the final answer more accurate.
+
+### Key Insights
+
+To get the best results from cloud AI models, remember to manage the token budget by resetting chats, ask objective questions to avoid predictive bias, and use the R-I-S-E formula to ensure the model has the exact context it needs.
