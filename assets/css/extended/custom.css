@@ -128,24 +128,56 @@
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.22);
 }
 
-/* Wavy underline for active menu items */
-#menu .active {
-    color: var(--accent);
-    text-decoration: underline;
-    text-decoration-style: wavy;
-    text-decoration-color: #a37f7e; 
-    text-decoration-thickness: 2px;
-    text-underline-offset: 6px;
-    font-weight: 600;
-}
-
 /* Typography for menu and title to match the tech vibe */
 .nav, .logo, .menu {
     font-family: "Fira Code", "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono", monospace;
 }
 
-#menu li a:hover {
-    color: var(--accent);
+#menu {
+    align-items: center;
+    gap: 12px;
+}
+
+#menu li + li {
+    margin-inline-start: 0;
+}
+
+#menu a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 22px;
+    line-height: 1;
+    font-size: 16px;
+    font-weight: 600;
+    border: 1px solid rgba(147, 164, 184, 0.24);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.03);
+    color: var(--primary);
+    transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease, box-shadow 0.18s ease;
+}
+
+#menu a:hover {
+    transform: translateY(-1px);
+    border-color: rgba(255, 143, 143, 0.3);
+}
+
+#menu a:has(.active) {
+    background: linear-gradient(135deg, rgba(237, 242, 248, 1), rgba(255, 179, 179, 0.9));
+    color: #07101f;
+    border-color: transparent;
+    box-shadow: 0 14px 28px rgba(255, 143, 143, 0.16);
+}
+
+#menu a span {
+    display: block;
+}
+
+#menu .active {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 700;
+    border-bottom: 0;
 }
 
 /* Post Titles Styling - Premium Aesthetic
@@ -168,6 +200,15 @@
 }
 
 @media (max-width: 700px) {
+    #menu {
+        gap: 10px;
+    }
+
+    #menu a {
+        padding: 10px 16px;
+        font-size: 15px;
+    }
+
     .posts-page-header {
         padding: 22px;
         border-radius: 20px;
