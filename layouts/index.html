@@ -1,0 +1,82 @@
+{{- define "main" }}
+{{- $posts := where site.RegularPages "Section" "posts" }}
+{{- $recent := first 4 ($posts.ByLastmod.Reverse) }}
+{{- $featured := slice }}
+{{- $featuredPaths := slice "/posts/runtime-prompt-engineering-for-custom-agents" "/posts/why-playwright-is-best" }}
+{{- range $featuredPaths }}
+  {{- with site.GetPage . }}
+    {{- $featured = $featured | append . }}
+  {{- end }}
+{{- end }}
+{{- if lt (len $featured) 2 }}
+  {{- $featured = first 2 $recent }}
+{{- end }}
+
+<div class="home-shell">
+  <section class="home-hero home-panel">
+    <p class="home-eyebrow">Personal blog / engineering notebook</p>
+    <h1>
+      <span class="home-hero__line">Agentic engineering, AI automation,</span>
+      <span class="home-hero__line">and software quality.</span>
+    </h1>
+    <ul class="home-hero__topics" aria-label="Topics">
+      <li>Agentic engineering</li>
+      <li>AI automation</li>
+      <li>Playwright</li>
+      <li>Software quality</li>
+    </ul>
+    <div class="home-hero__actions">
+      <a class="home-cta home-cta--primary" href="{{ "/posts/" | relURL }}">Read the blog</a>
+      <a class="home-cta home-cta--secondary" href="{{ "/about/" | relURL }}">About me</a>
+    </div>
+  </section>
+
+  <section class="home-section">
+    <div class="home-section__head">
+      <p class="home-kicker">Notebook Themes</p>
+      <h2>What I write about.</h2>
+    </div>
+    <div class="home-focus-grid">
+      <article class="home-focus-card">
+        <h3>Agentic engineering</h3>
+        <p>Notes on prompts, agents, skills, workflows, and practical ways to make AI tools actually useful.</p>
+      </article>
+      <article class="home-focus-card">
+        <h3>AI automation</h3>
+        <p>Experiments, patterns, and observations from using AI to speed up real engineering work.</p>
+      </article>
+      <article class="home-focus-card">
+        <h3>Playwright and quality</h3>
+        <p>Thoughts on automation architecture, test reliability, and the habits that keep systems stable.</p>
+      </article>
+    </div>
+  </section>
+
+  {{- if gt (len $featured) 0 }}
+  <section class="home-section">
+    <div class="home-section__head home-section__head--inline">
+      <div>
+        <p class="home-kicker">Notebook Highlights</p>
+        <h2>Start with these notes.</h2>
+      </div>
+      <a class="home-text-link" href="{{ "/posts/" | relURL }}">View all posts</a>
+    </div>
+    <div class="home-featured-grid">
+      {{- range $featured }}
+      <article class="home-featured-card">
+        <div class="home-featured-card__meta">
+          {{- with index .Params.categories 0 }}
+          <span>{{ . | humanize }}</span>
+          {{- end }}
+          <span>{{ .ReadingTime }} min read</span>
+        </div>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p>{{ .Description | default (.Summary | plainify | htmlUnescape) }}</p>
+        <a class="home-card-link" href="{{ .RelPermalink }}">Read article</a>
+      </article>
+      {{- end }}
+    </div>
+  </section>
+  {{- end }}
+</div>
+{{- end }}
