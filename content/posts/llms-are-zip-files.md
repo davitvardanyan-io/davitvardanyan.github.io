@@ -2,7 +2,6 @@
 title: "LLMs: Why They're Like 'ZIP' Files, Not Living Minds"
 draft: false
 categories: ["AI"]
-tags: ["LLM", "Architecture"]
 description: "Understanding why LLMs are static snapshots rather than active learners."
 showToc: true
 ---
