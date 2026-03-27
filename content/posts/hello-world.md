@@ -1,18 +1,13 @@
 ---
 title: "Hello World — Welcome to My Blog"
 draft: false
+categories: ["Personal"]
 tags:
   [
+    "Blogging",
     "Testing",
     "Playwright",
-    "TypeScript",
-    "Automation",
-    "AI",
-    "LLM",
-    "Knowledge",
-    "Technology",
-    "Skills",
-    "Agents",
+    "TypeScript"
   ]
 description: "The first post on my new blog. A quick note on what to expect here."
 showToc: false

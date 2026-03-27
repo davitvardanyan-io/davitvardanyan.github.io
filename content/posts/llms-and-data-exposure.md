@@ -1,7 +1,8 @@
 ---
 title: "LLMs Are 'ZIP' Files, But Your Data Is Still Reachable"
 draft: false
-tags: ["AI", "Security", "LLM", "Privacy"]
+categories: ["AI"]
+tags: ["LLM", "Security", "Privacy"]
 description: "Understanding the Two-Company Exposure when using cloud AI models in professional tools."
 showToc: true
 ---

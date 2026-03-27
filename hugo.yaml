@@ -87,6 +87,7 @@ menu:
       weight: 40
 
 taxonomies:
+  category: categories
   tag: tags
 
 outputs:

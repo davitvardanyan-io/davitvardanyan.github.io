@@ -1,7 +1,8 @@
 ---
 title: "How to Effectively Communicate with AI"
 draft: false
-tags: ["AI", "LLM", "Knowledge", "Technology", "Automation"]
+categories: ["AI"]
+tags: ["LLM", "Prompt Engineering", "Automation"]
 description: "Three mechanical things you should understand to get better results from any AI model."
 showToc: true
 ---

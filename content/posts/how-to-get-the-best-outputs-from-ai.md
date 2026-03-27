@@ -1,12 +1,11 @@
 ---
 title: "How to Get the Best Outputs from AI"
 draft: false
+categories: ["AI"]
 tags:
   [
-    "AI",
     "LLM",
-    "Knowledge",
-    "Skills",
+    "Prompt Engineering",
     "Automation"
   ]
 description: "Four essential techniques for getting consistent, tailored results from any AI model."

@@ -1,13 +1,13 @@
 ---
 title: "Beyond the Setup: Run-Time Prompt Engineering for Custom Agents"
 draft: false
+categories: ["AI"]
 tags:
   [
-    "AI",
     "LLM",
-    "Knowledge",
     "Agents",
-    "Automation"
+    "Automation",
+    "Prompt Engineering"
   ]
 description: "Four tactical strategies for driving complex AI agents and maximizing their efficiency during an active session."
 showToc: true
