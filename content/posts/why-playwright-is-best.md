@@ -3,7 +3,6 @@ title: "Why Playwright Is Your Best Choice for Web Automation"
 draft: false
 categories: ["Playwright"]
 description: "Start your automation journey with Playwright testing library"
-showToc: true
 ---
 
 ## Why Playwright

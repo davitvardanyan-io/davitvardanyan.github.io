@@ -3,7 +3,6 @@ title: "Beyond the Setup: Run-Time Prompt Engineering for Custom Agents"
 draft: false
 categories: ["AI"]
 description: "Four tactical strategies for driving complex AI agents and maximizing their efficiency during an active session."
-showToc: true
 ---
 
 In my last post, I wrote about the fundamental importance of building an AI-ready ecosystem *before* you even start working—setting up project context, broad instructions, JSON schemas for skills, and MCP connections. 

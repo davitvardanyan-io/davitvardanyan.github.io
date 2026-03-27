@@ -3,7 +3,6 @@ title: "How to Get the Best Outputs from AI"
 draft: false
 categories: ["AI"]
 description: "Four essential techniques for getting consistent, tailored results from any AI model."
-showToc: true
 ---
 
 AI is very capable and can solve many different problems. But the main problem I've been noticing is that every time I ask the same question to the same model—or across different cloud LLMs—I receive completely different results. One day, the output is perfectly aligned with my repository's style; the next day, it generates a generic, unstructured response. 

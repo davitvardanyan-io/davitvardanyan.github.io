@@ -3,7 +3,6 @@ title: "LLMs: Why They're Like 'ZIP' Files, Not Living Minds"
 draft: false
 categories: ["AI"]
 description: "Understanding why LLMs are static snapshots rather than active learners."
-showToc: true
 ---
 
 I used to think that when I chatted with an AI, it was learning from me in real-time—saving our conversation and getting smarter.

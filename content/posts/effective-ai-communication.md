@@ -3,7 +3,6 @@ title: "How to Effectively Communicate with AI"
 draft: false
 categories: ["AI"]
 description: "Three mechanical things you should understand to get better results from any AI model."
-showToc: true
 ---
 
 I've been noticing that many engineers struggle to get consistent results from AI tools. To work with any AI better, I've found there are three "mechanical" things you should understand. These will help you get better results from any cloud LLM or local model you run.
