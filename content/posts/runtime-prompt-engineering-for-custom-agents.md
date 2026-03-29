@@ -5,7 +5,7 @@ categories: ["AI"]
 description: "Four tactical strategies for driving complex AI agents and maximizing their efficiency during an active session."
 ---
 
-In my last post, I wrote about the fundamental importance of building an AI-ready ecosystem *before* you even start working: setting up project context, broad instructions, JSON schemas for skills, and MCP connections. 
+In my last post: [How to Get the Best Outputs from AI](/posts/how-to-get-the-best-outputs-from-ai/), I wrote about the fundamental importance of building an AI-ready ecosystem *before* you even start working: setting up project context, broad instructions, JSON schemas for skills, and MCP connections. 
 
 However, I started thinking: once you've built that perfect environment (just like a customized `package.json` for a new project), how do you actually drive the vehicle? Having the best setup isn't enough if you don't effectively steer the model during your actual session. To get the best results, you need to use run-time "prompt engineering" to construct a temporary, custom agent tailored for the specific problem you are solving right now.
 
