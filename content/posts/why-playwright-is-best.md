@@ -11,13 +11,13 @@ I started to think about why I repeatedly choose Playwright for my test automati
 
 ### Key Advantages
 
-- **Multi-browser support** — Test across Chrome, Firefox, and WebKit with the same codebase
-- **Cross-platform compatibility** — Works seamlessly on Windows, macOS, and Linux
-- **Multi-tab support** — Automate interactions across multiple browser tabs and windows
-- **Language flexibility** — Use your preferred programming language: JavaScript, Python, Java, or .NET
-- **Easy to learn** — Intuitive API that makes getting started straightforward
-- **Highly scalable** — Build and maintain complex test suites with confidence
-- **Reliable** — Modern standards ensure your tests are stable and not flaky
+- **Multi-browser support**: Test across Chrome, Firefox, and WebKit with the same codebase
+- **Cross-platform compatibility**: Works seamlessly on Windows, macOS, and Linux
+- **Multi-tab support**: Automate interactions across multiple browser tabs and windows
+- **Language flexibility**: Use your preferred programming language (JavaScript, Python, Java, or .NET)
+- **Easy to learn**: Intuitive API that makes getting started straightforward
+- **Highly scalable**: Build and maintain complex test suites with confidence
+- **Reliable**: Modern standards ensure your tests are stable and not flaky
 
 Playwright is the best choice for building robust, maintainable web automation tests.
 

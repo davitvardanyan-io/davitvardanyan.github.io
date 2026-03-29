@@ -14,9 +14,9 @@ Most of what I write comes from real work: things I built, things I learned, thi
 
 ### What I write about
 
-- **Agentic engineering** — agents, skills, prompts, and practical AI workflows
-- **AI automation** — using AI to support real engineering work, not just demos
-- **Playwright and software quality** — automation architecture, stable tests, and maintainable systems
+- **Agentic engineering**: agents, skills, prompts, and practical AI workflows
+- **AI automation**: using AI to support real engineering work, not just demos
+- **Playwright and software quality**: automation architecture, stable tests, and maintainable systems
 
 ### Why I write
 

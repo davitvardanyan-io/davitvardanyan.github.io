@@ -5,7 +5,7 @@ categories: ["AI"]
 description: "Understanding why LLMs are static snapshots rather than active learners."
 ---
 
-I used to think that when I chatted with an AI, it was learning from me in real-time—saving our conversation and getting smarter.
+I used to think that when I chatted with an AI, it was learning from me in real-time, saving our conversation and getting smarter.
 
 But it turns out, that's not how it works.
 

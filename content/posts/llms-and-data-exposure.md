@@ -5,11 +5,11 @@ categories: ["AI"]
 description: "Understanding the Two-Company Exposure when using cloud AI models in professional tools."
 ---
 
-I've been thinking a lot about the fact that Large Language Models (LLMs) act like static "ZIP files"—frozen in time and unable to learn directly from our active conversations. But that realization brought up a new question for me: if they are just static snapshots, what actually happens to my conversations and interactions with the AI?
+I've been thinking a lot about the fact that Large Language Models (LLMs) act like static "ZIP files", frozen in time and unable to learn directly from our active conversations. But that realization brought up a new question for me: if they are just static snapshots, what actually happens to my conversations and interactions with the AI?
 
-It's not really about *what* specific data I'm sharing—because like many of us, I'm very strict about security and never post sensitive code—but rather *where* that data is being saved. What I discovered is what I call the **Two-Company Exposure**. It's something that happens quietly in the background whenever we plug cloud AI models into our professional IDEs and tools.
+It's not really about *what* specific data I'm sharing (because like many of us, I'm very strict about security and never post sensitive code), but rather *where* that data is being saved. What I discovered is what I call the **Two-Company Exposure**. It's something that happens quietly in the background whenever we plug cloud AI models into our professional IDEs and tools.
 
-I want to be clear: I am generally okay with companies saving my data because that helps train the next generation of smarter models for all of us. But as professionals, we still need to understand exactly where our data is going. This post isn't about pointing fingers at any specific company—because practically all of them use the same global approach—but rather understanding the pipeline.
+I want to be clear: I am generally okay with companies saving my data because that helps train the next generation of smarter models for all of us. But as professionals, we still need to understand exactly where our data is going. This post isn't about pointing fingers at any specific company (because practically all of them use the same global approach), but rather understanding the pipeline.
 
 Here is the breakdown of the "Two Places" theory:
 
@@ -47,6 +47,6 @@ If you want to maintain maximum control over your data, follow these three steps
 
 1.  **Check Your Extension Settings:** Go to the settings of whatever AI extension you are using and look for a privacy option. You want to explicitly set anything resembling **"Allow my data to be used for AI model training"** to Disabled.
 2.  **Hide Environment Variables:** Never let your actual API keys or passwords sit in an open `.env` file while an AI extension is running. The AI often automatically "reads" surrounding context, which can inadvertently expose those secrets.
-3.  **Go Local for Total Control:** If you want absolute certainty that no data is leaving your machine, don't just use a local LLM—make sure the *extension* interacting with the LLM is entirely local and open-source as well. It keeps the processing pipeline secure.
+3.  **Go Local for Total Control:** If you want absolute certainty that no data is leaving your machine, don't just use a local LLM; make sure the *extension* interacting with the LLM is entirely local and open-source as well. It keeps the processing pipeline secure.
 
 LLMs might be static ZIP files, but the pipeline delivering your data to them is very much alive. Understand your tools, and protect your context accordingly.

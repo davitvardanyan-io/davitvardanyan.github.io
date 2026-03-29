@@ -5,7 +5,7 @@ categories: ["AI"]
 description: "Four tactical strategies for driving complex AI agents and maximizing their efficiency during an active session."
 ---
 
-In my last post, I wrote about the fundamental importance of building an AI-ready ecosystem *before* you even start working—setting up project context, broad instructions, JSON schemas for skills, and MCP connections. 
+In my last post, I wrote about the fundamental importance of building an AI-ready ecosystem *before* you even start working: setting up project context, broad instructions, JSON schemas for skills, and MCP connections. 
 
 However, I started thinking: once you've built that perfect environment (just like a customized `package.json` for a new project), how do you actually drive the vehicle? Having the best setup isn't enough if you don't effectively steer the model during your actual session. To get the best results, you need to use run-time "prompt engineering" to construct a temporary, custom agent tailored for the specific problem you are solving right now.
 
@@ -21,7 +21,7 @@ Instead of just saying "write a test," try something like: *"You are a Principal
 
 While having general rules for "good vs. bad" approaches is excellent for your baseline infrastructure, human language in a direct prompt is still inherently ambiguous. 
 
-Providing the AI with two or three complete, perfect examples of past work—like a previously merged pull request or an exact, working automation test from another file—gives it a direct, mathematical template to mimic. In my experience, explicitly showing concrete examples in the chat is the absolute best way to enforce repository style standards and avoid misunderstandings on complex code structures.
+Providing the AI with two or three complete, perfect examples of past work (like a previously merged pull request or an exact, working automation test from another file) gives it a direct, mathematical template to mimic. In my experience, explicitly showing concrete examples in the chat is the absolute best way to enforce repository style standards and avoid misunderstandings on complex code structures.
 
 ### 3. "Chain of Thought" (Thinking Before Acting)
 
@@ -37,6 +37,6 @@ If a test fails or a script crashes, simply take the raw terminal error log and 
 
 ### Key Insights
 
-Your repository's infrastructure (RAG context, skills, and base rules) builds the perfect **environment** for your AI. But it is these active, run-time tactics—Persona design, Few-Shot examples, Chain of Thought, and Feedback loops—that optimize the AI's **execution**. 
+Your repository's infrastructure (RAG context, skills, and base rules) builds the perfect **environment** for your AI. But it is these active, run-time tactics, Persona design, Few-Shot examples, Chain of Thought, and Feedback loops, that optimize the AI's **execution**. 
 
 Whenever you sit down for a complex engineering session, remember that combining a strong foundational environment with real-time prompt steering is how you create the ultimate custom agent workflow.
